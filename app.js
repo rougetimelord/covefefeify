@@ -15,6 +15,6 @@ var key = function () {
     clearTimeout(y);y = setTimeout(c, 500);
 }
 var clear = function () {
-    if (g('in').value.length == 0){g('out').innerHTML="";clearTimeout(y);}
+    if (g('in').value.length == 0){g('out').innerHTML="Translate normal language into autocorrect messing up"; cleartimeout(y);}
 }
 document.addEventListener('DOMContentLoaded', function () { document.addEventListener('keypress', key);document.addEventListener('keydown',clear)})
